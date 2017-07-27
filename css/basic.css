@@ -22,26 +22,32 @@ body {
   -webkit-flex-direction: row;
   flex-direction: row;
   justify-content:space-between;
-  #align-items: stretch;
 }
 
 .language {
   justify-content: flex-end;
   -webkit-flex-direction: row;
   flex-direction: row;
+  padding-right: 1rem;
 }
 
 .photo {
   padding: 1.5em;
 }
-
 img.photo {
   width: 180px;
 }
 
-a[href^="tel:"], a[href^="mailto:"] {
+.org {
+  text-align: center;
+}
+
+a {
   color: #222;
   text-decoration: none;
+}
+a[href^="http:"]:hover, a[href^="https:"]:hover {
+  color: #eee
 }
 
 @media (min-width: 550px) {
@@ -49,6 +55,9 @@ a[href^="tel:"], a[href^="mailto:"] {
     -webkit-flex-direction: row;
     flex-direction: row;
     justify-content:space-around;
-    #border: 1px solid red;
+  }
+
+  .language {
+    padding-right: 2rem;
   }
 }
