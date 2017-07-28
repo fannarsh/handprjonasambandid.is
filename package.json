@@ -1,0 +1,23 @@
+{
+  "name": "handprjonasambandid.is",
+  "version": "0.0.0",
+  "description": "Website for Handprjónasambandið",
+  "scripts": {
+    "build": "postcss css/stylesheet.css -c postcss.config.js -o css/stylesheet.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fannarsh/handprjonasambandid.is.git"
+  },
+  "author": "Fannar Snær <fannar@lambagras.is>",
+  "bugs": {
+    "url": "https://github.com/fannarsh/handprjonasambandid.is/issues"
+  },
+  "homepage": "https://github.com/fannarsh/handprjonasambandid.is#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.2",
+    "postcss-clean": "^1.0.3",
+    "postcss-cli": "^4.1.0",
+    "postcss-normalize": "^4.0.0"
+  }
+}
