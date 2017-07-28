@@ -82,12 +82,15 @@ a[href^="http:"]:hover, a[href^="https:"]:hover {
   color: #eee
 }
 
-@media (min-width: 550px) {
+@media (min-width: 720px) {
   .row {
     flex-direction: row;
     justify-content:space-around;
+    width: 60vw
   }
+}
 
+@media (min-width: 550px) {
   .language {
     padding-right: 2rem;
   }
