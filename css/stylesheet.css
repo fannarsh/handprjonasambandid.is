@@ -57,6 +57,10 @@ body {
   justify-content:space-between;
 }
 
+.spread>div{
+  padding-right: 1.5rem;
+}
+
 .language {
   justify-content: flex-end;
   flex-direction: row;
